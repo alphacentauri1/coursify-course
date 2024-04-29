@@ -1,0 +1,113 @@
+.register{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://i.imgur.com/QX4I0dq.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-2 {
+    
+    width: 750px;
+    background: rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(255, 255 , 255, .2 );
+    box-shadow: 0 0 10px rgba(43, 42, 42, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    color: white;
+    padding: 40px 35px 55px;
+    margin: 0 10px;
+    
+}
+
+.wrapper-2 h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.wrapper-2 .input-box-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box-2 .input-field-1{
+    position: relative;
+    width: 48%;
+    height: 50px;
+    margin: 13px 0;
+
+}
+
+.input-box-2 .input-field-1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255 , 255, .2 );
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+
+.input-box-2 .input-field-1 input::placeholder{
+    color: white;
+}
+
+.input-box-2 .input-field-1 i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 20px;
+
+}
+
+.wrapper-2 label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+}
+
+.wrapper-2 label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.wrapper-2 .b2 {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , .1 ) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+@media (max-width:576px){
+    .input-box-2 .input-field-1 {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

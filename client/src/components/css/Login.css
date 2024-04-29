@@ -1,0 +1,246 @@
+/*.login {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://i.imgur.com/QX4I0dq.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(248, 246, 246);
+    box-sizing: border-box;
+    color: rgb(250, 247, 247);
+}
+
+.wrapper {
+    width: 400px;
+    background: transparent;
+    
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: rgb(92, 87, 87);
+    border-radius: 10px;
+    padding : 30px 40px;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin: 0 10px;
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper .input-box-1 {
+    width: 100%;
+    height: 40px;
+    margin: 25px 0;
+    position: relative;
+}
+
+.input-box-1 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    color: rgb(54, 52, 52);
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box-1 input::placeholder {
+    color: rgb(70, 70, 70);
+}
+
+.input-box-1 i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: rgb(77, 73, 73);
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: rgb(114, 110, 110);
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .b1 {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    color: rgb(58, 57, 57);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin : 20px 0 15px ;
+}
+
+.register-link p a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:356px){
+    .input-box-1 .input-field{
+        width: 100%;
+        margin: 10px 0;
+    }
+}*/
+.login {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://i.imgur.com/QX4I0dq.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    
+    border-radius: 10px;
+    padding : 30px 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    margin: 0 10px;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.wrapper .input-box-1 {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+
+}
+
+.input-box-1 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box-1 input::placeholder {
+    color: white;
+}
+
+.input-box-1 i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    color: white;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+    color: white;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .b1 {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin : 20px 0 15px ;
+    color: white;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width:356px){
+    .input-box-1 .input-field{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+

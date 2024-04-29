@@ -1,0 +1,101 @@
+#main{
+    
+    margin: 0px;
+}
+
+
+
+/* #cardss{
+    height:250px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    padding: 5px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 30px;
+    
+} */
+
+
+/* #cardss::-webkit-scrollbar{
+    display: none;
+
+  
+} */
+
+.four{
+    display: flex;
+    justify-content: center;
+}
+
+#chevy{
+    height: 50px;
+    width: 50px;
+    opacity: 50%;
+}
+
+#ques{
+    margin-bottom: 20px;
+    
+}
+
+.one{
+    background-color: rgb(207, 203, 203);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.consi{
+    display: flex;
+   color: rgb(83, 81, 81);
+   
+    
+    
+    
+}
+.two>img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#cardsss{
+    height: auto;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+
+h4, h3{
+    line-height: 130%;
+    
+}
+/* .my-5 > h2{
+    margin-left: 120px;
+}
+
+.boxer >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin:0;
+    padding: 0;
+}
+
+
+.boxer{
+    
+    background-color: rgb(119, 119, 119);
+    padding: 0;
+    margin: 10px;
+    margin-right: 20px;
+    min-height: 200px;
+    min-width: 350px;
+   
+} */
+
+
